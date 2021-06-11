@@ -1,9 +1,17 @@
-/*
-  Autor: Bartolome Sintes Marco
-  Fecha: 3 de octubre de 2014
-*/
-
-h1 {
-  background-color: black ;      /* fondo negro */
-  color: white ;                 /* texto blanco */
+P {
+font-size : 12pt;
+font-family : arial,helvetica;
+font-weight : normal;
+}
+H1 {
+font-size : 36pt;
+font-family : verdana,arial;
+text-decoration : underline;
+text-align : center;
+background-color : Teal;
+}
+BODY {
+background-color : #006600;
+font-family : arial;
+color : White;
 }
