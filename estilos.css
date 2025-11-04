@@ -1,2 +1,23 @@
-p {color:#252c61;}
+body {
+  /* Aplica la fuente Montserrat al texto */
+  font-family: 'Montserrat', sans-serif;
+  
+  /* Aplica el color #252c61 a todas las letras de la página */
+  color: #252c61;
+}
 
+/* Nota: Los elementos de encabezado (h1, h2, h3, etc.) y los párrafos (p) */
+/* heredarán el color del 'body', pero lo confirmamos explícitamente para mayor seguridad. */
+
+h1, h3 {
+  color: #252c61;
+}
+
+/* Si tuvieras enlaces (<a>) en el futuro y quisieras que tuvieran el mismo color: */
+/*
+a {
+  color: #252c61;
+  text-decoration: none; /* Opcional: para quitar el subrayado de los enlaces */
+/*
+}
+*/
